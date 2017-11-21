@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="450dp"
+    android:layout_marginLeft="70dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/prev"
+        android:layout_width="188dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Próximos dias"
+        android:textAlignment="center"
+        android:textColor="#1FAB89"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/d0"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="em 1 dia:"
+        android:textAlignment="center"
+        android:textColor="#1FAB89"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/icon0"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:id="@+id/condition0"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#1FAB89"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/d1"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="em 2 dias:"
+        android:textAlignment="center"
+        android:textColor="#1FAB89"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:id="@+id/condition1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#1FAB89"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/d2"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="em 3 dias:"
+        android:textAlignment="center"
+        android:textColor="#1FAB89"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:id="@+id/condition2"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#1FAB89"
+        android:textSize="13sp" />
+
+
+</LinearLayout>
