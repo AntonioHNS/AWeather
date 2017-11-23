@@ -1,4 +1,4 @@
-package pronatec.appweather;
+﻿package pronatec.appweather;
 
 import android.content.DialogInterface;
 import android.graphics.Color;
@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity implements WeatherServiceCal
                 }else{
                     Toast.makeText(getApplicationContext(),"Primeiro pesquise um local", Toast.LENGTH_LONG);
                 }
-
             }
         });
 
